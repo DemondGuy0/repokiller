@@ -5,4 +5,4 @@
 # Bot perteneciente a @raydel0307 , contactar para adquirir más actualizaciones
 # Deploy Directo (Heroku)
 
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/manicaraguaMM/repotematico)
+[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DemondGuy0/repokiller)
