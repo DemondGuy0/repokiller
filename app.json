@@ -12,15 +12,15 @@
     },
     "api_id": {
       "description": "Api Id de telegram",
-      "value": "18641760"
+      "value": "12569968"
     },
     "api_hash": {
       "description": "Api Hash de telegram",
-      "value": "b7b026ce9d1d36400c02dc21d8df53a3"
+      "value": "2d5b54d8745cab19f3bf12cfd77c4897"
     },
     "tl_admin_user": {
       "description": "Usuarios Permitidos",
-      "value": "obisoftt"
+      "value": "killerj00"
     }
   }
 }
