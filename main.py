@@ -372,11 +372,11 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
                   if fsize>config.SPLIT_FILE:
                       await bot.edit_message(ev.chat,message,text=f'{ffname} Demasiado Grande, Debe Comprimir\nSe Cancelo La Subida')
                       return
-                  await bot.edit_message(ev.chat,message,text=f'#𝓢𝓤𝓑𝓘𝓔𝓝𝓓𝓞 ... {ffname}...')
-                  result:RepoUploaderResult = None
+                  await bot.edit_message(ev.chat,message,text=f'Subiendo ... {ffname}...')
+                  result:RepoUploaderResult = find_all
                   def uploader_func():
                       result = session.upload_file(ffullpath,progress_func=upload_progress,progress_args=(bot,ev,message,loop))
-                      STORE_UPLOADER[ffname] = None
+                      STORE_UPLOADER[ffname] = result
                       if result:
                         STORE_RESULT[ffname] = result
                   tup = Thread(uploader_func)
